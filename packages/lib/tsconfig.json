@@ -1,0 +1,14 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "include": ["src"],
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "module": "esnext",
+    "target": "es2019",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "resolveJsonModule": true
+  }
+}

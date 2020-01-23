@@ -1,0 +1,24 @@
+{
+  "name": "button",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "start": "tsc --build --watch tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^4.4.1",
+    "@types/styled-system": "^5.1.4",
+    "react-docgen-typescript": "1.16.1",
+    "styled-components": "^4.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {}
+}
